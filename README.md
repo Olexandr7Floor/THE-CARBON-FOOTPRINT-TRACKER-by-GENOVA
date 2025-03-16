@@ -30,9 +30,9 @@
 #### Кроки для встановлення та запуску:
 1. **Завантажте та встановіть XAMPP**  
    Перейдіть на [офіційний сайт XAMPP](https://www.apachefriends.org/) та виконайте завантаження згідно вашої ОС:
-   ![Рис1](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image1.png)
+   ![Рис1](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images1.png)
    Дочекайтесь завантаження інсталятора:
-   ![Рис2](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image2.png)
+   ![Рис2](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images2.png)
    Запустіть інсталятор та слідуйте інструкціям.
    > При встановленні обов’язково обрати компоненти для встановлення в склад XAMPP:
    > - Apache
@@ -41,24 +41,24 @@
 
    > Можна скористатися відео на офіційному сайті де демонструється завантаження XAMPP.
 2. **Запустіть Apache та MySQL у XAMPP Control Panel**.
-![Рис3](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image3.png)
+![Рис3](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images3.png)
 3. **Завантажте файли сайту з репозиторію GitHub: [Genova THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA)
 4. **Помістіть файли сайту у папку `htdocs`**:
 Скопіюйте весь вміст проєкту у каталог `C:\xampp\htdocs\`
-![Рис4](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image4.png)
+![Рис4](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images4.png)
 6. **Налаштування бази даних**:
    - У браузері відкрийте `http://localhost/phpmyadmin/`.
    - Створіть нову базу даних з назвою `carbon_tracker`.
-   ![Рис5](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image5.png)
+   ![Рис5](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images5.png)
     - Імпортуйте структуру та дані:  
      *Перейдіть у вкладку `Import`, оберіть файл `hackathon.sql`, натисніть `Імпортувати`*.
-     ![Рис6](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image6.png)
+     ![Рис6](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images6.png)
 7. **Запуск веб-застосунку**:
    - Відкрийте браузер і перейдіть за адресою:  
      ```
      http://localhost/login_form.html
      ```
-![Рис7](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image7.png)
+![Рис7](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images7.png)
 *Повинна відкритися сторінка реєстрації, якщо все правильно налаштовано
 
 
@@ -66,7 +66,7 @@
 
 ### 1. Реєстрація нового користувача
 Форма реєстрації включає наступні поля:
-![Рис8](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image8.png)
+![Рис8](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images8.png)
 - **Логін** (унікальний ідентифікатор користувача)
 - **Країна** (місце проживання користувача)
 - **Місто** (детальніша геолокація)
@@ -75,23 +75,23 @@
 
 ### 2. Вхід у систему
 Після успішної реєстрації користувач може здійснити вхід у систему, використовуючи логін і пароль.
-![Рис9](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image9.png)
+![Рис9](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images9.png)
 
 ### 3. Головна сторінка
 - **Інформаційні статті** щодо вуглецевого сліду та його впливу на клімат.
 - **Освітні матеріали** з екологічних питань.
 - **Медіа-контент** (відео та інфографіка) для підвищення обізнаності.
-![Рис10](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image10.png)
+![Рис10](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images10.png)
 
 Є можливість більш детально почитати про інформацію, яка зацікавила. Для цього потрібно натиснути на кнопку `Більше`, після чого розгорнеться повний текст статті:
-![Рис11](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image11.png)
+![Рис11](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images11.png)
 
 Щоб згорнути повний текст потрібно натиснути на кнопку `Менше`
 
 ### 4. Розділ "Події"
 Містить інформацію про екологічні заходи, конференції та ініціативи, пов'язані зі зменшенням викидів CO₂.  
 Користувачі можуть переглядати майбутні події та отримувати посилання на онлайн-заходи. За посиланнями можна відразу переходити на потрібну конференцію:
-![Рис12](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image12.png)
+![Рис12](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images12.png)
 Адміністратори мають можливість створювати та розповсюджувати нові конференції:
 ![Рис13](images/image13.png)
 
@@ -100,24 +100,24 @@
 - **Поїздки на автомобілі** (вибір типу пального та відстані)
 - **Споживання їжі** (враховує вплив різних типів продуктів)
 - **Споживана електроенергія** (вплив на основі країни проживання)
-![Рис14](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image14.png)
+![Рис14](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images14.png)
 
 ### 6. Рейтинг користувачів
 - Відображає порівняльну таблицю із вуглецевим слідом інших користувачів.
 - Фільтрування за датою та географічним регіоном.
 - Можливість додати друзів і відстежувати їхні результати.
-![Рис15](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image15.png)
+![Рис15](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images15.png)
 
 ### 7. Карта забруднень
 - Візуалізація глобальних даних про викиди CO₂ на основі даних із **Carbon Monitor**.
 - Карта оновлюється динамічно та показує рівень викидів у різних країнах.
-![Рис16](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image16.png)
+![Рис16](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images16.png)
 
 ### 8. Профіль користувача
 - **Особиста статистика**: відображення загального вуглецевого сліду.
 - **Деталізація споживання**: графік використання вуглецевого сліду за категоріями.
 - **Історія внесків**: перегляд усіх попередніх записів розрахунку (рейтинг).
-![Рис17](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/image18.png)
+![Рис17](https://github.com/Olexandr7Floor/THE-CARBON-FOOTPRINT-TRACKER-by-GENOVA/blob/main/images/images18.png)
 
 Заповнюючи поля з даними споживання вуглецевого сліду за кожний день, автоматично генерується динамічний графік споживання по критеріям, обраховується результат споживання згідно норм та дані додаються в загальну базу всіх користувачів для відображення в рейтинговій таблиці.
 
